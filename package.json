@@ -1,0 +1,27 @@
+{
+  "name": "yargcli",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000y\u0000a\u0000r\u0000g\u0000C\u0000L\u0000I\u0000\r\u0000 \u0000",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbalev/yargCLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbalev/yargCLI/issues"
+  },
+  "homepage": "https://github.com/kbalev/yargCLI#readme",
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
