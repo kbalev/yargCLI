@@ -26,3 +26,7 @@ if (process.argv[2] == "add") {
     read(movieList)
     console.log("This is your current list. If this is not the command you were looking for, someting went wrong. Please try again.")
 }
+
+//docker run -d -p 27017:27017 -v mdb-data:/data/db mongo
+// docker exec -it <container ID> mongo
+//docker ps
